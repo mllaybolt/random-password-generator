@@ -10,7 +10,7 @@ body {
   min-height: 100vh;
 }
 h1 {
-  font-family: "Bungee Outline", cursive;
+  font-family: "Bungee", cursive;
   font-size: 37px;
   margin-bottom: 22px;
   text-align: center;
@@ -30,6 +30,7 @@ input[type="checkbox"] {
 
 .result-container {
   background-color: rgba(0, 0, 0, 40%);
+  font-family: "Quicksand", sans-serif;
   display: flex;
   justify-content: flex-start;
   align-items: center;
