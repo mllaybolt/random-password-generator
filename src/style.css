@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(180deg, rgb(109, 177, 255) 0%, rgb(0, 0, 0) 100%);
+  background: radial-gradient(rgb(97, 114, 109) 0%, rgb(3, 5, 3) 100%);
   font-family: "Bungee Hairline", cursive;
   color: #ffffff;
   opacity: 73%;
@@ -22,7 +22,8 @@ input[type="checkbox"] {
 }
 
 a {
-  color: rgb(109, 177, 255);
+  color: #b1ffa5;
+  font-style: italic;
   text-decoration: none;
 }
 
