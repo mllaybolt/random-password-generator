@@ -21,6 +21,19 @@ input[type="checkbox"] {
   margin-right: 0;
 }
 
+a {
+  color: rgb(109, 177, 255);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+footer {
+  font-size: 11px;
+}
+
 .container {
   max-width: 100%;
   box-shadow: 0px 7px 83px 24px rgba(255, 255, 255, 0.3);
