@@ -10,14 +10,20 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Bungee+Outline&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Random Password Generator</title>
   </head>
   <body>
     <div class="container">
-      <h2>Password Generator</h2>
+      <h1>Password Generator</h1>
       <div class="result-container">
         <span id="result"></span>
-        <button class="btn btn-outline-success" id="clipboard">Copy</button>
+        <button class="btn btn-outline-light" id="clipboard">📎</button>
       </div>
       <div class="selections">
         <div class="select">
@@ -26,22 +32,22 @@
         </div>
         <div class="select">
           <label>Include lowercase letters</label>
-          <input type="checkbox" id="lowercase" checked />
+          <input type="checkbox" id="lowercase" unchecked />
         </div>
         <div class="select">
           <label>Include UPPERCASE letters</label>
-          <input type="checkbox" id="uppercase" checked />
+          <input type="checkbox" id="uppercase" unchecked />
         </div>
         <div class="select">
           <label>Include numbers</label>
-          <input type="checkbox" id="numbers" checked />
+          <input type="checkbox" id="numbers" unchecked />
         </div>
         <div class="select">
           <label>Include symbols</label>
-          <input type="checkbox" id="symbols" checked />
+          <input type="checkbox" id="symbols" unchecked />
         </div>
       </div>
-      <button class="btn btn-outline-dark" id="generate">
+      <button class="btn btn-outline-light" id="generate">
         Generate Password
       </button>
     </div>
