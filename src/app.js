@@ -27,6 +27,9 @@ clipboard.addEventListener("click", () => {
   textarea.select();
   document.execCommand("copy");
   textarea.remove();
+  alert(
+    "Your password has been copied to the clipboard. Remember: never share your passwords with anyone ✅"
+  );
 });
 
 generate.addEventListener("click", () => {
